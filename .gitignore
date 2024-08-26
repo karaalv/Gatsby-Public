@@ -1,0 +1,12 @@
+# Environment Variables.
+**/.env
+
+# Node modules throughout project.
+**/node_modules
+
+# Mac OS.
+**/.DS_Store
+
+# Visual Studio Code variables.
+.vscode
+

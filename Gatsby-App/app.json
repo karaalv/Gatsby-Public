@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Gatsby-App",
+    "slug": "Gatsby-App",
+    "version": "1.0.0",
+    "scheme": "Gatsby-App",
+    "orientation": "portrait",
+    "icon": "./assets/Branding/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Branding/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Branding/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/Branding/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}

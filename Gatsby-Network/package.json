@@ -1,0 +1,32 @@
+{
+  "name": "gatsby-network",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test-tickets": "cd test && npx mocha ticketMinting.test.js",
+    "test-ipfs": "cd test && npx mocha --timeout 5000 ipfsInterface.test.js",
+    "test-ticketLogger": "cd test && npx mocha --timeout 3000 ticketLoggerDeployment.test.js",
+    "test-blockchainInterface": "cd test && npx mocha --timeout 3000 blockchainInterface.test.js",
+    "test-firebaseInterface": "cd test && npx mocha --timeout 3000 firebaseInterface.test.js",
+    "test-api": "cd test && npx mocha --timeout 30000 clientAPI.test.js",
+    "client-w": "cd Client-Backend && nodemon ClientAPI.js",
+    "client": "cd Client-Backend && node ClientAPI.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pinata/sdk": "^2.1.0",
+    "bottleneck": "^2.19.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase": "^10.7.1",
+    "firebase-admin": "^12.0.0",
+    "mocha": "^10.2.0",
+    "nodemon": "^3.0.1",
+    "web3": "^4.1.2",
+    "web3.storage": "^4.5.5"
+  }
+}
